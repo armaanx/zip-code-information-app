@@ -1,8 +1,19 @@
-# React + Vite
+# Zip Code Information App - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that enables users to input a postal code and retrieve location information using the [Zippopotam API](https://api.zippopotam.us).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Form Components**: Enter a postal code and display location information.
+- **API Integration**: Fetches and stores location details from the Zippopotam API.
+- **Error Handling**: Gracefully handles API call failures and displays error messages.
+- **Loading Indicator**: Provides visual feedback while data is being fetched.
+- **Clear Option**: Includes a button to reset displayed information.
+- **Styling**: Tailwind CSS to enhance the visual appeal.
+
+## Getting Started
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Use `npm start` to launch the development server.
+
