@@ -15,5 +15,5 @@ A React application that enables users to input a postal code and retrieve locat
 
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
-3. Use `npm start` to launch the development server.
+3. Use `npm run dev` to launch the development server.
 
